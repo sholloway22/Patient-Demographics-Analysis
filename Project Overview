@@ -4,34 +4,23 @@ This Excel project demonstrates how to analyze patient population data using for
 It focuses on deriving patient age, categorizing age groups, and visualizing key demographic insights across gender, ethnicity, and insurance status.
 
 🏥 Project Overview
-
 The workbook provides a foundation for healthcare demographic analytics.
 It simulates how clinical teams can segment patients and identify patterns that influence outcomes, insurance coverage, and resource distribution.
 
 Key transformations include:
-
 Deriving Age from Date of Birth using the DATEDIF() function.
-
 Categorizing Age Groups (Child, Teen, Young Adult, Adult, Senior) using nested IF formulas.
-
 Building Pivot Tables to analyze relationships between Gender, Ethnicity, and Insurance Status.
-
 Formatting data for readability and professional presentation.
 
 ⚙️ Features
-
 Automated age calculation from Date of Birth
-
 Dynamic age-group classification using conditional logic
-
 Interactive Pivot Table dashboards summarizing patient demographics
-
 Filters for gender, ethnicity, and insurance status to explore population trends
-
 Reusable data structure suitable for public health or population management analytics
 
 🧠 Skills Demonstrated
-
 Excel | DATEDIF | Nested IF Statements | Pivot Tables | Data Cleaning | Healthcare Analytics
 
 💡 Why It Matters
@@ -39,6 +28,20 @@ Excel | DATEDIF | Nested IF Statements | Pivot Tables | Data Cleaning | Healthca
 Understanding population demographics is essential for equitable healthcare planning and data-driven decision-making.
 This project shows how Excel can function as a lightweight analytics tool for visualizing and interpreting patient data, even without advanced BI software.
 
-Created by: Shonda Holloway
 
+🗂️ Data Dictionary
+| **Column Name**        | **Description**                                           | **Example Value**   |
+| ---------------------- | --------------------------------------------------------- | ------------------- |
+| **Patient ID**         | Unique identifier assigned to each patient                | PID0001             |
+| **First Name**         | Patient’s first name                                      | Jasmine             |
+| **Last Name**          | Patient’s last name                                       | Walker              |
+| **Date of Birth**      | Patient’s date of birth                                   | 03/22/1987          |
+| **Age**                | Automatically derived using `DATEDIF()` formula           | 37                  |
+| **Age Group**          | Categorized as Child, Teen, Young Adult, Adult, or Senior | Adult               |
+| **Gender**             | Patient’s self-reported gender                            | Female              |
+| **Ethnicity**          | Patient’s ethnicity or racial group                       | African American    |
+| **Insurance Status**   | Indicates whether patient has insurance coverage          | Insured / Uninsured |
+| **Date of Last Visit** | The most recent date of patient’s clinic visit            | 09/18/2025          |
+
+Created by: Shonda Holloway
 Repository: Patient Demographics Analysis
